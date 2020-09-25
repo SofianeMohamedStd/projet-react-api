@@ -11,11 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892ae01b-99a7-4a93-b6e8-bbf4bfc60b53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GamesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GamesController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,8 @@
       <workItem from="1600850254875" duration="6645000" />
       <workItem from="1600875599697" duration="4858000" />
       <workItem from="1600887593617" duration="3062000" />
-      <workItem from="1600929692723" duration="5828000" />
+      <workItem from="1600929692723" duration="8377000" />
+      <workItem from="1601016268630" duration="8390000" />
     </task>
     <servers />
   </component>
@@ -190,6 +189,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1601028013711">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1601028013711" />
     <state x="574" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1600695170654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

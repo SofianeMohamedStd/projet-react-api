@@ -99,7 +99,8 @@ class GamesController extends AbstractController
             $game->setTitre($donnees->titre);
             $game->setAnnee($donnees->annee);
             $game->setImage($donnees->image);
-            $game->setStudioId($donnees->studio);
+            $studio = $this->getDoctrine()->getRepository(Studio::class)->find($donnees->studio);
+            $game->setStudioId($studio);
 
             // On sauvegarde en base
             $entityManager = $this->getDoctrine()->getManager();
@@ -110,5 +111,19 @@ class GamesController extends AbstractController
             return new Response('ok', $code);
         //}
         //return new Response('Failed', 404);
+    }
+
+
+    /**
+     * @Route("/game/supprimer/{id}", name="supprime",  requirements={"id":"\d+"}, methods={"DELETE"})
+     * @param Games $games
+     * @return Response
+     */
+    public function removeGame(Games $games)
+    {
+        $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->remove($games);
+        $entityManager->flush();
+        return new Response('ok');
     }
 }
